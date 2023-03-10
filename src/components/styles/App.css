@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.nft-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+}
+
+.nft-card img {
+  max-width: 50%;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.nft-details {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.nft-details h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.nft-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.nft-details ul {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.nft-details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 8px;
+  color: #6c757d;
+}
+
+
+.nft-details li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+footer {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.nft-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nft-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nft-details h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nft-details p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.nft-details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nft-details li {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.link-collapse {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.link-collapse:hover {
+  background: #f6f6f6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.link-collapse h2 {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.link-collapse img {
+  max-width: 40px;
+  margin-right: 16px;
+}
+
+h3 {
+  margin: 3px;
+}
