@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Deployed on the server: https://nft-react-component.vercel.app/
 
+backend: https://github.com/T1mur-cod/nft-proxy-server
+
 ## Available Scripts
 
 In the project directory, you can run:
